@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +24,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $user = User::find(1);
+        dd($user->hasRole('web-developer')); //вернёт true
+        dd($user->hasRole('project-manager')); //вернёт false
+        dd($user->givePermissionsTo('manage-users')); //выдаём разрешение
+        dd($user->hasPermission('manage-users')); //вернёт true
+        /*return view('home');*/
     }
 }
