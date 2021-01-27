@@ -2,27 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37d2bb0a-3850-4515-8d38-6a1a8a5cde77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/HasRolesAndPermissions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/RolesAndPermissions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RolesAndPermissions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Permission.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_11_164226_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_11_164226_create_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_11_164235_create_permissions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_11_164235_create_permissions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -142,6 +144,16 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/liquetsoft/fias-component" />
+      <path value="$PROJECT_DIR$/vendor/liquetsoft/fias-laravel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/ezimuel/ringphp" />
+      <path value="$PROJECT_DIR$/vendor/ezimuel/guzzlestreams" />
+      <path value="$PROJECT_DIR$/vendor/liquetsoft/fias-elastic" />
+      <path value="$PROJECT_DIR$/vendor/elasticsearch/elasticsearch" />
     </include_path>
   </component>
   <component name="ProjectId" id="1k9VCm7v7zWAVXW5BW6e2nEsMwx" />
@@ -155,7 +167,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,11 +176,45 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/migrations/streets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -180,7 +226,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605112669655</updated>
-      <workItem from="1605112678614" duration="3433000" />
+      <workItem from="1605112678614" duration="4853000" />
+      <workItem from="1605543710977" duration="1104000" />
+      <workItem from="1605550190098" duration="678000" />
+      <workItem from="1605631339159" duration="2244000" />
+      <workItem from="1608669033952" duration="15675000" />
+      <workItem from="1608741698394" duration="40140000" />
+      <workItem from="1609095294579" duration="46992000" />
+      <workItem from="1609295681976" duration="6185000" />
+      <workItem from="1609704430047" duration="13000" />
+      <workItem from="1609787918729" duration="712000" />
+      <workItem from="1609804089821" duration="770000" />
+      <workItem from="1610330656615" duration="1619000" />
+      <workItem from="1610458356879" duration="5579000" />
+      <workItem from="1610694791370" duration="11526000" />
+      <workItem from="1611698277932" duration="5000" />
+      <workItem from="1611709513698" duration="1568000" />
     </task>
     <servers />
   </component>
@@ -188,9 +249,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609008097279">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="476" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1366.745@0.23.1366.745" timestamp="1609008097279" />
+    <state x="452" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1609114997252">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="452" y="157" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1366.745@0.23.1366.745" timestamp="1609114997252" />
+    <state width="1252" height="187" key="GridCell.Tab.0.bottom" timestamp="1609288623991">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1252" height="187" key="GridCell.Tab.0.bottom/0.23.1366.745@0.23.1366.745" timestamp="1609288623991" />
+    <state width="1252" height="187" key="GridCell.Tab.0.center" timestamp="1609288623987">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1252" height="187" key="GridCell.Tab.0.center/0.23.1366.745@0.23.1366.745" timestamp="1609288623987" />
+    <state width="1252" height="187" key="GridCell.Tab.0.left" timestamp="1609288623984">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1252" height="187" key="GridCell.Tab.0.left/0.23.1366.745@0.23.1366.745" timestamp="1609288623984" />
+    <state width="1252" height="187" key="GridCell.Tab.0.right" timestamp="1609288623988">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state width="1252" height="187" key="GridCell.Tab.0.right/0.23.1366.745@0.23.1366.745" timestamp="1609288623988" />
     <state x="747" y="245" key="NewPhpClassDialog" timestamp="1605114278948">
       <screen x="0" y="23" width="1366" height="745" />
     </state>
     <state x="747" y="245" key="NewPhpClassDialog/0.23.1366.745@0.23.1366.745" timestamp="1605114278948" />
+    <state x="380" y="152" width="667" height="486" key="find.popup" timestamp="1610461913087">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="380" y="152" width="667" height="486" key="find.popup/0.23.1366.745@0.23.1366.745" timestamp="1610461913087" />
   </component>
 </project>
